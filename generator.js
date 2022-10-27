@@ -7,7 +7,7 @@ process.title = "Bitcoin Sniffer";
 
  function main() {
 
-
+    
     rl.question('Show failed wallets? Y/N (Slower) \n', (answer) => {
         if (answer == "Y" || answer == "y") {
             console.log("\x1b[32m%s\x1b[0m", ">> Generating...");
